@@ -1,3 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770925542
+::res://::1770931809
 icon.svg::CompressedTexture2D::4710682690045346318::1770925523::1770925544::1::::<><><>0<>0<>e715b3ff77bc9b56886d40b69afeb34d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+lilguy.png::CompressedTexture2D::2610314252941070745::1770927666::1770927667::1::::<><><>0<>0<>9ad447702770bbea058b2f4d469add5e<>res://.godot/imported/lilguy.png-4547387e0b1bb6c835962d7965fd1090.ctex::
+pixil-frame-0 (1)armfrrrr.png::CompressedTexture2D::5682841732165180122::1770931809::1770931810::1::::<><><>0<>0<>031a6f6e7dd5ba0afc2226540f61a87f<>res://.godot/imported/pixil-frame-0 (1)armfrrrr.png-d5d7d3b9df103cfb199a9007043646b7.ctex::
+pixil-frame-0 (1)Frtail.png::CompressedTexture2D::6869163685099621789::1770931534::1770931534::1::::<><><>0<>0<>b83cbc3358ff99f46127ab218965d182<>res://.godot/imported/pixil-frame-0 (1)Frtail.png-7082c157eaeeb048dbf1fad65a6964d7.ctex::
+pixil-frame-0 (1)taiiiillll.png::CompressedTexture2D::6036019094549754518::1770931724::1770931724::1::::<><><>0<>0<>02340f75f8cf7c381d4a498c44f13f20<>res://.godot/imported/pixil-frame-0 (1)taiiiillll.png-cbdeccc5282c85bd5e798efc2d74bbb5.ctex::
+pixilart-sprite arm.png::CompressedTexture2D::471794864074209249::1770930253::1770930253::1::::<><><>0<>0<>477b3859077e25cceaffd9e3768d3793<>res://.godot/imported/pixilart-sprite arm.png-018e593a0f5847bd1fcf45b6a5a55a9a.ctex::
+Player.tscn::PackedScene::8943654381791733625::1770925620::0::1::::<><><>0<>0<><>::
+world.tscn::PackedScene::8809980753068711287::1770925570::0::1::::<><><>0<>0<><>::

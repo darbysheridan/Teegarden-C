@@ -1,3 +1,26 @@
-[gd_scene format=3 uid="uid://d0omxfhnibbpp"]
+[gd_scene load_steps=5 format=3 uid="uid://d0omxfhnibbpp"]
+
+[ext_resource type="Texture2D" uid="uid://bdgpq2q5d4cfp" path="res://lilguy.png" id="1_kne1u"]
+[ext_resource type="Texture2D" uid="uid://cr85l8ver45da" path="res://pixil-frame-0 (1)taiiiillll.png" id="2_e80uo"]
+[ext_resource type="Texture2D" uid="uid://cm72tqpmjwdgc" path="res://pixil-frame-0 (1)armfrrrr.png" id="3_cxr5p"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tdg3f"]
+size = Vector2(22, 63)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(25, -28)
+texture = ExtResource("1_kne1u")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
+texture = ExtResource("2_e80uo")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D"]
+texture = ExtResource("3_cxr5p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-1, -32.5)
+shape = SubResource("RectangleShape2D_tdg3f")
