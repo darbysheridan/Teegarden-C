@@ -1,10 +1,20 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771529484
+::res://::1772737575
+collision_shape9_2d.tscn::PackedScene::3613647971385316580::1772136235::0::1::::<><><>0<>0<><>::
+collision_shape_2d.tscn::PackedScene::2612449065659931043::1772136204::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::4710682690045346318::1771528606::1771528606::1::::<><><>0<>0<>e715b3ff77bc9b56886d40b69afeb34d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 lilguy.png::CompressedTexture2D::2610314252941070745::1771529484::1771529488::1::::<><><>0<>0<>9ad447702770bbea058b2f4d469add5e<>res://.godot/imported/lilguy.png-4547387e0b1bb6c835962d7965fd1090.ctex::
+mesh_instance_2d.tscn::PackedScene::3929929890952645831::1772134109::0::1::::<><><>0<>0<><>::
+pixil-frame-0 (1).png::CompressedTexture2D::7070308809799466362::1772139910::1772139900::1::::<><><>0<>0<>7dbfb52343e4993b0b6e1c73b813d75f<>res://.godot/imported/pixil-frame-0 (1).png-160dd9969d7e45d14d604c370b40e019.ctex::
 pixil-frame-0 (1)armfrrrr.png::CompressedTexture2D::5682841732165180122::1771529484::1771529488::1::::<><><>0<>0<>031a6f6e7dd5ba0afc2226540f61a87f<>res://.godot/imported/pixil-frame-0 (1)armfrrrr.png-d5d7d3b9df103cfb199a9007043646b7.ctex::
 pixil-frame-0 (1)Frtail.png::CompressedTexture2D::6869163685099621789::1771529484::1771529488::1::::<><><>0<>0<>b83cbc3358ff99f46127ab218965d182<>res://.godot/imported/pixil-frame-0 (1)Frtail.png-7082c157eaeeb048dbf1fad65a6964d7.ctex::
 pixil-frame-0 (1)taiiiillll.png::CompressedTexture2D::6036019094549754518::1771529484::1771529488::1::::<><><>0<>0<>02340f75f8cf7c381d4a498c44f13f20<>res://.godot/imported/pixil-frame-0 (1)taiiiillll.png-cbdeccc5282c85bd5e798efc2d74bbb5.ctex::
+pixil-frame-0 (2).png::CompressedTexture2D::2813455106842798257::1772736742::1772736732::1::::<><><>0<>0<>91ac6e6d7feebdd6e74c8b68d16e7afa<>res://.godot/imported/pixil-frame-0 (2).png-3518ea07d4b7b07323f6a64175fb6f0f.ctex::
+pixil-frame-0 (3).png::CompressedTexture2D::7450970976031144190::1772737575::1772737576::1::::<><><>0<>0<>49579c2e72a6fce26c503cb1bcfd6c98<>res://.godot/imported/pixil-frame-0 (3).png-1f44af19afde9a7a24ec4c7b5832abba.ctex::
+pixil-frame-0.png::CompressedTexture2D::263716197895445500::1772139847::1772139763::1::::<><><>0<>0<>a4177337eaf9e5ff88d3e170a3866717<>res://.godot/imported/pixil-frame-0.png-ad73aed19b00fd55eeaf2db0cae8f8ff.ctex::
 pixilart-sprite arm.png::CompressedTexture2D::471794864074209249::1771529484::1771529488::1::::<><><>0<>0<>477b3859077e25cceaffd9e3768d3793<>res://.godot/imported/pixilart-sprite arm.png-018e593a0f5847bd1fcf45b6a5a55a9a.ctex::
-Player.tscn::PackedScene::8943654381791733625::1771529484::0::1::::<><><>0<>0<><>::
-world.tscn::PackedScene::8809980753068711287::1771529484::0::1::::<><><>0<>0<><>::
+platform.tscn::PackedScene::325609420008980304::1772140709::0::1::::<><><>0<>0<><>::uid://bv8xmvbb12fcx::::res://mesh_instance_2d.tscn
+Player.tscn::PackedScene::8943654381791733625::1772732851::0::1::::<><><>0<>0<><>::uid://bdgpq2q5d4cfp::::res://lilguy.png<>uid://cr85l8ver45da::::res://pixil-frame-0 (1)taiiiillll.png<>uid://cm72tqpmjwdgc::::res://pixil-frame-0 (1)armfrrrr.png
+rock_2d.tscn::PackedScene::3801702761489802790::1772736904::0::1::::<><><>0<>0<><>::uid://bgc4gu565acsf::::res://pixil-frame-0 (2).png
+tree.tscn::PackedScene::6169170786009057481::1772141112::0::1::::<><><>0<>0<><>::uid://c7y57n2el30yw::::res://pixil-frame-0 (1).png
+world.tscn::PackedScene::8809980753068711287::1772734753::0::1::::<><><>0<>0<><>::uid://d0omxfhnibbpp::::res://Player.tscn<>uid://evy0e7jivbae::::res://platform.tscn<>uid://ct5nlu2bm88ev::::res://tree.tscn<>uid://buftqvlp16pqs::::res://rock_2d.tscn

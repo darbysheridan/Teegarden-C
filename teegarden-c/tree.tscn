@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://ct5nlu2bm88ev"]
+
+[ext_resource type="Texture2D" uid="uid://c7y57n2el30yw" path="res://pixil-frame-0 (1).png" id="1_brfkd"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(124.5, 19.999992)
+scale = Vector2(3.49, 3.4199998)
+texture = ExtResource("1_brfkd")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(79, 1)
+scale = Vector2(1.5576922, 1.8541669)
+polygon = PackedVector2Array(3.8518524, -32.359547, -41.7284, -26.96629, -68.69137, -22.112356, -77.67902, -11.325841, -60.987663, -5.9325833, -42.370377, -7.011235, -34.66667, -13.483145, -14.765434, -11.865167, 28.888893, -16.179773, 38.518524, -13.483145, 49.432106, -18.337076, 63.555565, -14.561796, 82.81483, -19.415728, 93.08643, -24.269659, 93.7284, -30.202244, 65.48149, -35.5955, 38.518524, -35.5955)

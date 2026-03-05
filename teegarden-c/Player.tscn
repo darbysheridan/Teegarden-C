@@ -7,11 +7,12 @@
 [sub_resource type="GDScript" id="GDScript_kne1u"]
 resource_name = "charmovementscript"
 script/source = "extends CharacterBody2D
-
+@onready var spawnposition=self.position
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
-
+func kill():
+	self.position=spawnposition
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -41,18 +42,18 @@ script = SubResource("GDScript_kne1u")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(71, 46)
+position = Vector2(25, -26)
 texture = ExtResource("1_kne1u")
 
 [node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
-visible = false
 texture = ExtResource("2_e80uo")
 
 [node name="Sprite2D2" type="Sprite2D" parent="Sprite2D"]
-visible = false
 position = Vector2(1, 0)
 texture = ExtResource("3_cxr5p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(45, 42)
+position = Vector2(-1, -30)
 shape = SubResource("RectangleShape2D_tdg3f")
+
+[node name="Camera2D" type="Camera2D" parent="."]

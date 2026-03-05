@@ -1,3 +1,8 @@
 res://world.tscn
 res://Player.tscn
 res://platform.tscn
+res://collision_shape_2d.tscn
+res://tree.tscn
+res://area_2d.tscn
+res://rock_2d.tscn
+res://seedling.tscn

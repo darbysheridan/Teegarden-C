@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3 uid="uid://buftqvlp16pqs"]
+
+[ext_resource type="Texture2D" uid="uid://bgc4gu565acsf" path="res://pixil-frame-0 (2).png" id="1_60gko"]
+
+[sub_resource type="GDScript" id="GDScript_nsakb"]
+resource_name = "killzone"
+script/source = "extends Area2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+
+
+func _on_body_entered(body: Node2D) -> void:
+	if body.has_method(\"kill\"):
+		body.kill()
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gf172"]
+
+[node name="Area2D" type="Area2D"]
+script = SubResource("GDScript_nsakb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_gf172")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+
+[node name="PixilFrame0(2)" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(39, 42)
+scale = Vector2(1.7799997, 1.7300001)
+texture = ExtResource("1_60gko")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
