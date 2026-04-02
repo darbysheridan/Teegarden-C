@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="teegarden-c"
-run/main_scene="uid://dxrvdi2iemn0r"
+run/main_scene="uid://c8jmrgki6h3om"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
