@@ -9,6 +9,14 @@
 
 [node name="World" type="Node2D"]
 
+[node name="Label" type="Label" parent="."]
+offset_left = 6581.0
+offset_top = 532.0
+offset_right = 6803.0
+offset_bottom = 581.0
+text = "You're kinda stuck now huh?
+Well this is the end so...byee"
+
 [node name="Area2D4" parent="." instance=ExtResource("4_aqk2v")]
 position = Vector2(901, 327)
 
@@ -236,3 +244,7 @@ scale = Vector2(1.1306744, 1.3187665)
 
 [node name="StaticBody2D54" parent="." instance=ExtResource("3_tlwt5")]
 position = Vector2(4912, 553)
+
+[node name="StaticBody2D52" parent="." instance=ExtResource("1_fj7yv")]
+position = Vector2(6888.9995, 546)
+rotation = -1.5788758
